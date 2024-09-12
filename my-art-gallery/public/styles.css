@@ -1,3 +1,29 @@
 body{
-    color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-container {
+    background-color: blue;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.first {
+    width: 33%;
+    background-color: black;
+    color: white;
+}
+
+.second {
+    width: 33%;
+    background-color: white;
+    color: black;
+}
+
+.third {
+    width: 33%;
+    background-color: white;
+    color: black;
 }
