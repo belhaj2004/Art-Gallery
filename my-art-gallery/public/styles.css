@@ -4,26 +4,55 @@ body{
 }
 
 .first-container {
-    background-color: blue;
     height: 50vh;
     display: flex;
     flex-direction: row;
+    background-color: black;
 }
 
 .first {
     width: 33%;
     background-color: black;
-    color: white;
+    font-size: 50px;
+    background: linear-gradient(to left,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    flex-direction: column;
+    text-indent: 82%;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+
 }
 
 .second {
     width: 33%;
     background-color: white;
     color: black;
+    background-image: url(./pictures/pic.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    text-indent: -18%;
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden;
+
+
+    
 }
 
+
 .third {
-    width: 33%;
+    width: 34%;
     background-color: white;
     color: black;
 }
