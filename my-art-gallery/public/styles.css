@@ -13,39 +13,43 @@ body{
 .first {
     width: 33%;
     background-color: black;
-    font-size: 50px;
-    background: linear-gradient(to left,
+    font-size: 100px;
+    /* background: linear-gradient(to left,
             violet,
             indigo,
             blue,
             green,
             yellow,
             orange,
-            red);
+            red); */
+            background: white;
     -webkit-background-clip: text;
     color: transparent;
     display: flex;
     flex-direction: column;
-    text-indent: 82%;
+    text-indent: 44%;
     white-space: nowrap; /* Prevent text wrapping */
     overflow: hidden;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
 
 }
 
 .second {
     width: 33%;
     background-color: white;
-    color: black;
-    background-image: url(./pictures/pic.jpg);
+    color:black;
+    background-image: url(./pictures/artist.jpg);
     background-size: cover;
     background-position: center;
-    font-size: 50px;
+    font-size: 100px;
     display: flex;
     flex-direction: column;
-    text-indent: -18%;
+    text-indent: -56%;
     white-space: nowrap; /* Prevent text wrapping */
     overflow: hidden;
-
+    font-family: "Merriweather", serif;
+    font-weight: 300;
 
     
 }
@@ -55,4 +59,44 @@ body{
     width: 34%;
     background-color: white;
     color: black;
+    font-family: "Merriweather", serif;
+    line-height: 162%;
+    font-size: 20px;
+
+    
+
 }
+ .third-one{
+    margin-top: 5%;
+    transform: translateX(-13%);
+    margin-bottom: 15%;
+ }
+
+
+ .button-container {
+    display: inline-flex;
+    align-items: center;
+    background-color: #222; /* Black background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    width: 35%;
+    height: 15%;
+    transform: translateX(-34%);
+  }
+  
+  .button-container svg {
+    margin-left: 6%;
+    background-color: #d39b75; /* Orange background for the arrow part */
+    height: 100%;
+    width: 20%;
+    transform: translateX(56%);
+
+
+  }
+
+  .button-container span {
+    display: inline-block;
+   margin-left: 9%;
+  }
